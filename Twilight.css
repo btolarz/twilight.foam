@@ -5,7 +5,17 @@
 
 css property-name {
 	color: #C5AF75;
+	background: url('aaa');
 }
+
+css property-value support.function.misc.css name {
+  color: #F9EE98;
+}
+
+css property-value support.function.misc.css punctuation.section.function.css {
+  color: #fff;
+}
+
 
 css property-value {
 	color: #F9EE98 ;
@@ -70,27 +80,18 @@ tag, source, sourcecode {
 	spell-check: disabled;
 }
 
-tag, tag > string > punctuation {
+tag {
 	oldcolor: #8FCFFF;
 	lessoldcolor: #9FDFFF;
-	color: #5FAFEF;
-}
-
-tag > name, tag > string.quoted - punctuation, attribute-with-value > string.quoted - punctuation {
-	oldcolor: #2F5F7F;
-}
-
-tag>name {
-	color: #89BDFF;
+	color: #ad8256;
 }
 
 attribute-name, punctuation.definition.tag {
-	color: #89BDFF;
-	newcolor: #6FBFFF;
+	color: #C5AF75;
 }
 
 tag > string.quoted, tag > attribute-with-value > string.quoted {
-	color: #65B042;
+	color: #8f9d6a;
 }
 
 tag > string > punctuation {
@@ -102,7 +103,7 @@ css.embedded attribute-name, css.embedded punctuation.definition.tag {
 }
 
 comment, comment>punctuation, tag.doctype, tag.doctype > *, tag.doctype > string.quoted {
-	color: #AEAEAE;
+	color: #736d73;
 	font-style: italic;
 }
 
@@ -116,7 +117,7 @@ latex.function function - parameter, latex.keyword {
 }
 
 string.quoted {
-	color: #73b00a;
+	color: #8f9d6a;
 }
 
 string.quoted > escape {
@@ -173,11 +174,75 @@ keyword.control {
 
 constant.numeric {
 	background-color: transparent;
-	color: #3E87E3;
+	color: #CA7840;
 }
 
 js.embedded {
 	color: #fff;
+}
+
+js function.definition.anonymous keyword {
+  color: #F9EE98;
+}
+
+js variable {
+  color: #fff;
+}
+
+js variable.property {
+  color: #cf6a4c;
+}
+
+js variable.property.x-assignment,
+js variable.x-assignment {
+  color: #fff;
+}
+
+js keyword.storage.type {
+  color: #F9EE98;
+}
+
+js variable.x-assignment accessor-path.name variable.property {
+  color: #fff;
+}
+
+js support.variable.class.built-in {
+  color: #ac98ac;
+}
+
+
+js variable.property.function.definition.x-assignment name {
+  color: #ad8256;
+}
+
+js variable.property.function.definition.x-assignment operator {
+  color: #fff;
+}
+
+js variable.property.function.definition.x-assignment keyword {
+  color: #F9EE98;
+}
+
+js variable.property.x-assignment operator.assignment {
+  color: #fff;
+}
+
+js class.constructor keyword.operator.new,
+js keyword.control,
+js operator.binary {
+  color: #d7b582;
+}
+
+js class.constructor variable.class {
+  color: #ad8256;
+}
+
+js operator.assignment {
+  color: #cda869;
+}
+
+js keyword.variable.language {
+  color: #7587a6;
 }
 
 invalid {
