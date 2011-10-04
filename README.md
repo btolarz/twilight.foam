@@ -1,4 +1,11 @@
 TextMate Twilight theme port for Espresso
 ===
 
-Since Espresso 2 is finally usable, I've updated this theme to be 1:1 in-line with its TextMate counterpart
+v0.2
+---
+* Updated to work with Espresso 2.0
+* Properly highlights CSS, JavaScript and HTML
+
+v0.1
+---
+* Initial styles for version prior to 1.0
